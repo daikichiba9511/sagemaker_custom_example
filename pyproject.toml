@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sagemaker_custom_example"
+version = "0.1.0"
+description = ""
+authors = ["daikichiba9511 <daikichiba.tech.ml@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.2"
+pandas = "^1.2.4"
+ipykernel = "^5.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
